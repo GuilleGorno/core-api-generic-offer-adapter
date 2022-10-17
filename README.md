@@ -1,0 +1,1 @@
+# core-api-generic-offer-adapter
