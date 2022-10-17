@@ -1,0 +1,145 @@
+{
+  "id": "da10962e65fec21115bc9b160c79b1bb97d73dec",
+  "product": "LOAN",
+  "brand": "WELP_ES",
+  "status": "OPPORTUNITY_CREATE_FAIL",
+  "product_relations": {},
+  "sections": {
+    "risk_scoring": {
+      "dictum": "Preaprobado",
+      "is_in_blacklist": false,
+      "score_id": "634d4613dc0e82000152f5d5",
+      "scoring_date": "2022-10-17 12:08:33"
+    },
+    "attachments": [],
+    "bank_info": {
+      "account_number": "ES1321007102160200255979",
+      "salary_range": "mas-1800"
+    },
+    "business_step": {
+      "business_step": "pre_offer_approved",
+      "status": "INITIATED",
+      "status_message": "Pre oferta aprobada por politica",
+      "step": "pre_offer_evaluation_operation"
+    },
+    "contact_info": {
+      "address": {
+        "street": "gjfgfhg",
+        "zip_code": "20801"
+      },
+      "email": "gabriel.nicora@wenance.com",
+      "first_lastname": "Demo",
+      "firstname": "Prueba",
+      "fiscal_id": "42186783e",
+      "person_id": "42186783e",
+      "phones": [
+        {
+          "area": "",
+          "number": "+34620872875",
+          "phone_category": "mobile",
+          "phone_type": "primary"
+        },
+        {
+          "area": "",
+          "number": "+34629869554",
+          "phone_category": "landline",
+          "phone_type": "alternative"
+        }
+      ],
+      "second_lastname": "Vivo"
+    },
+    "prefilter": {
+      "candidate_status": "Approved",
+      "is_blacklisted": false,
+      "pre_approved_credit_amount": "400"
+    },
+    "offer": {
+	  "loan_reason":"Viaje",
+      "payday": "1er dia del mes",
+      "product_description": "Welp Payday Bronce",
+      "product_id": "62c5547e89a48d28f57f6f53"
+    },
+    "salesforce": {
+		"lead_id":"xxxxxxxx",		
+		"document_validation_success":"true",
+		"salary_validated":"1201-1800",
+      	"message": "The lead is not approved",
+      	"stage": "LEAD"
+    },
+    "personal_info": {
+      "addresses": [
+        {
+          "street": "gjfgfhg",
+          "zip_code": "20801"
+        }
+      ],
+      "birthdate": "1979-10-02",
+      "email": "gabriel.nicora@wenance.com",
+      "employment_info": {
+        "job_type": "Indefinido C/ Periodo de Prueba",
+        "payment_date":"Fin de mes",
+        "seniority":"1er dia del mes"
+      },
+      "first_lastname": "Demo",
+      "firstname": "Prueba",
+      "fiscal_id": "42186783e",
+      "gender": "M",
+      "marital_status": "Soltero",
+      "monthly_expenses": "100-400",
+      "person_id": "42186783e",
+      "second_lastname": "Vivo",
+      "type_of_houssing": "Propietario con hipoteca"
+    },
+    "operations": {
+      "cross_posible_optional_operations": [
+        "get_session_operation",
+        "delete_session_operation",
+        "change_personal_info_operation",
+        "flow_selector_operation",
+        "receive_validated_offer_operation"
+      ],
+      "current_completed_operations": [
+        "initial_risk_evaluation_operation",
+        "get_bank_link_operation",
+        "flow_selector_operation",
+        "upload_documentation_operation",
+        "personal_info_operation",
+        "pre_offer_evaluation_operation"
+      ],
+      "executed_operation": "pre_offer_evaluation_operation",
+      "executed_operation_status": "INITIATED",
+      "next_posible_required_operations": [
+        "receive_validated_offer_operation"
+      ],
+      "private_operations": [
+        "receive_payment_method_operation",
+        "receive_lleida_callback_operation",
+        "receive_bank_operation"
+      ]
+    },
+    "identity_validation": {
+      "service_name": "NONE"
+    },
+    "application_form": {},
+    "origination": {
+      "campaign": "onboarding-default",
+      "lead_source": "onboarding-default",
+      "utm_campaign": "onboarding-default",
+      "utm_medium": "onboarding-default",
+      "utm_source": "onboarding-default"
+    },
+    "audit": {
+      "available_resolution": "[1920,1055]",
+      "device_memory": "8",
+      "ip": "181.47.204.77",
+      "language": "es",
+      "last_screen": " ingreso datos personales",
+      "resolution": "[1920,1080]",
+      "timezone_offset": "180",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+    },
+    "flow": {
+      "flow_name": "no_bankreader_flow"
+    }
+  }
+}
